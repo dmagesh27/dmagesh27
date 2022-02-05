@@ -29,7 +29,7 @@ public class xpathconcept {
 		driver.findElement(By.xpath("//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b']")).click();
 		driver.manage().timeouts().pageLoadTimeout(8, TimeUnit.SECONDS);
 
-		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("Test@1234567");
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("********");
 		
 		driver.findElement(By.xpath("//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc qIypjc TrZEUc lw1w4b']")).click();
 		
